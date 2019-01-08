@@ -1,5 +1,6 @@
 //Start of the file
 
+// Data manipulation
 let arrayTotal=(array)=>{
     let arrayT=0
     for(i=0;i<array.length;i++){
@@ -10,6 +11,12 @@ let arrayTotal=(array)=>{
 let moneyLeft=()=>{
     return arrayTotal(incList)-arrayTotal(expList)
     
+}
+
+//Show totals on the DOM
+let displayTotal=()=>{
+    document.getElementById("expensetotal").textContent=arrayTotal(expList)
+    document.getElementById("incomeTotal").textContent=arrayTotal(incList)
 }
 
 // Data Storage
