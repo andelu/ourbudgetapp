@@ -1,28 +1,15 @@
 //Start of the file
-class Expenses{
-    constructor(){
-    this.exList=[]
-    }
-    addexpense(name,cost)
-    let newExpense{
-        name: name,
-        cost: cost
-    }
-    this.expList.push(newExpense)
-}
-class Incomes{
-    constructor(){
-    this.inList=[]
-    }
-    addincome(name,cost)
-    let newExpense{
-        name: name,
-        cost: cost
-    }
-    this.expList.push(newExpense)
-}
+const expList=[] 
+const incList=[]
 
-let expList=[]
-let incList=[]
-
+const addtoArray = (number,item,choice) => {
+    let record = {number: number,
+                item: item}
+    if (choice === "income") {
+        incList.push(record)
+    }
+    else  {
+        expList.push(record)
+    }
+}
 // this is my line
