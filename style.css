@@ -1,11 +1,11 @@
 body {
     text-align: center;
 }
-#expenses {
+#left {
     display: flex;
     justify-content: left;
 }
-#income {
+#right {
     display: flex;
     justify-content: right;
 }

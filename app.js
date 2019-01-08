@@ -41,3 +41,25 @@ const getexpensetotal = () => {
 const getIncometotal = () => {
     return document.getElementById('incomeTotal').value
 }
+let myExpenseSpace = document.getElementById('expenses')
+let myIncomeSpace = document.getElementById('income')
+
+
+// DOM Update
+
+const updateRecords = () => {
+    expList.forEach(
+        (record) => {   
+          let myrecord = document.createElement('p')
+          myrecord.textContent = `${record.item}: ${record.number}`
+          myExpenseSpace.appendChild(myrecord)
+        }
+    )
+    incList.forEach(
+        (record) => {   
+          let myrecord = document.createElement('p')
+          myrecord.textContent = `${record.item}: ${record.number}`
+          myIncomeSpace.appendChild(myrecord)
+        }
+    )
+}
