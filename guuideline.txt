@@ -1,0 +1,10 @@
+step 1
+get both elements by id and get the values
+step 2
+put the values into the function. The function should push into the correct array
+step 3
+Add every income and every expense into the page from the arrays. This will be a function
+step 4
+create a function to get the total of each array
+step 5
+Create a function to calculate if there is still money left or debt
