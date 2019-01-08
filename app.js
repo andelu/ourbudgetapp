@@ -1,15 +1,15 @@
 //Start of the file
 
-let arrayT=0
-let totalMoney=0
 let arrayTotal=(array)=>{
-    //array.value should be changed to number type ahead
-    for(i=0;i>array.length;i++){
-        arrayT=arrayT+array.value
+    let arrayT=0
+    for(i=0;i<array.length;i++){
+        arrayT=arrayT+ parseInt(array.number)
     }
+    return arrayT
 }
 let moneyLeft=()=>{
-    totalMoney=arrayTotal(expList)-arrayTotal(expList)
+    return arrayTotal(incList)-arrayTotal(expList)
+    
 }
 
 // Data Storage
