@@ -1,12 +1,14 @@
-step 0
+xstep 0 
 create 2 arrays
-step 1
+xstep 1
 get both elements by id and get the values
-step 2
+xstep 2
 put the values into the function. The function should push into the correct array
-step 3
+step 3 display
 Add every income and every expense into the page from the arrays. This will be a function
-step 4
+xstep 4 manipulation
 create a function to get the total of each array
-step 5
+xstep 5 manipulation
 Create a function to calculate if there is still money left or debt
+step 6
+create a function to display the totals to the dom
