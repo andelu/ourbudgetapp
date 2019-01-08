@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+#expenses {
+    display: flex;
+    justify-content: left;
+}
+#income {
+    display: flex;
+    justify-content: right;
+}
